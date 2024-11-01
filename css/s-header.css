@@ -43,7 +43,7 @@ small { opacity: 0.5;}
     to {color: var(--bs-gray-900)!important;
         background-color: var(--bs-gray-200);}
 }
-.s-nav-link:hover{animation: header_hover 1s forwards;}
+.s-nav-link:hover{ animation: header_hover 1s forwards;}
 
 .s-wrap{ padding: 4rem 3rem 4rem 3rem;}
 
@@ -60,7 +60,7 @@ small { opacity: 0.5;}
 .s-wrap .s-id-text span{ font-size: 12pt;}
 .s-wrap .s-id-text li{ padding-bottom: 0.25rem; font-size: 12pt;}
 
-.s-wrap .s-web-title { margin-top: 2rem; margin-bottom: 2rem;}
+.s-wrap .s-web-title,.s-GD-title { margin-top: 2rem; margin-bottom: 2rem;}
 .s-wrap .s-web { padding-top: 2rem; width: 100%;}
 .s-wrap .s-web h4{ padding-bottom: 1.5rem;}
 .s-web-btn01,.s-web-btn02,.s-web-btn03,.s-web-btn04{
@@ -75,7 +75,7 @@ small { opacity: 0.5;}
 }.s-wrap .s-web .s-web-img .col img:active{ 
     opacity: 0.1; 
 }
-.s-wrap .s-web .s-web-text li{ font-size: 12pt;}
+.s-wrap .s-web .s-web-text li,.s-GD-text li{ font-size: 12pt;}
 .s-wrap .s-web .s-web-text .s-web-text-bd{ margin-left: 2rem;}
 @media (max-width: 994px) {
     header{
